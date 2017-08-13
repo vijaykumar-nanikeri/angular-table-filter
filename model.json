@@ -1,0 +1,96 @@
+[{
+	"theadAr":
+	[
+		{
+			"code": "name",
+			"name": "Name",
+			"filterObj": {
+				"tbodySearch": "",
+				"isSelectedAll": true,
+				"tbodyUniqueDataAr": []
+			}
+		}, {
+			"code": "empID",
+			"name": "Email ID",
+			"filterObj": {
+				"tbodySearch": "",
+				"isSelectedAll": true,
+				"tbodyUniqueDataAr": []
+			}
+		}, {
+			"code": "mobileNo",
+			"name": "Mobile No",
+			"filterObj": {
+				"tbodySearch": "",
+				"isSelectedAll": true,
+				"tbodyUniqueDataAr": []
+			}
+		}, {
+			"code": "emailID",
+			"name": "Email ID",
+			"filterObj": {
+				"tbodySearch": "",
+				"isSelectedAll": true,
+				"tbodyUniqueDataAr": []
+			}
+		}
+	],
+	"tbodyAr":
+	[
+		{
+			"id": 5,
+			"empID": "ATF0005",
+			"name": "Arjun Khan",
+			"mobileNo": 9988776659,
+			"emailID": "atf0005@gmail.com"
+		}, {
+			"id": 21,
+			"empID": "ATF0011",
+			"name": "Karthik G",
+			"mobileNo": 9988776675,
+			"emailID": "atf1021@gmail.com"
+		}, {
+			"id": 23,
+			"empID": "ATF0012",
+			"name": "Mahesh P",
+			"mobileNo": 9988776677,
+			"emailID": "atf1022@gmail.com"
+		}, {
+			"id": 8,
+			"empID": "ATF0008",
+			"name": "Mayank K",
+			"mobileNo": 9988776662,
+			"emailID": "atf0008@gmail.com"
+		}, {
+			"id": 6,
+			"empID": "ATF0006",
+			"name": "Nikita V",
+			"mobileNo": 9988776660,
+			"emailID": "atf0006@gmail.com"
+		}, {
+			"id": 19,
+			"empID": "ATF0009",
+			"name": "Rajaiah K",
+			"mobileNo": 9988776673,
+			"emailID": "atf1019@gmail.com"
+		}, {
+			"id": 4,
+			"empID": "ATF0004",
+			"name": "Rohit Kumar",
+			"mobileNo": 9988776658,
+			"emailID": "atf0004@gmail.com"
+		}, {
+			"id": 20,
+			"empID": "ATF0010",
+			"name": "Sridhar N",
+			"mobileNo": 9988776674,
+			"emailID": "atf1020@gmail.com"
+		}, {
+			"id": 7,
+			"empID": "ATF0007",
+			"name": "Vinay Guduri",
+			"mobileNo": 9988776661,
+			"emailID": "atf0007@gmail.com"
+		}
+	]
+}]

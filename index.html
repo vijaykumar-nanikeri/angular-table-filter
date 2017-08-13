@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<meta name="application-name" content="Angular Table Filter">
+	<meta name="author" content="Vijaykumar Nanikeri">
+	<meta
+		name="description"
+		content="Advanced table filter on column level with the options sorting and searching unique values of a column">
+	<meta name="keywords" content="Angular Table Filter, Angular Filter, Angular Table, angular-table-filter, angular-filter, angular-table, ngTableFilter, ngTable, ngFilter">
+
+	<title>Angular Table Filter</title>
+
+
+	<!-- LIBRARY CSS -->
+	<!-- =========== -->
+	<!-- Bootstrap CSS -->
+	<!-- Ref: http://getbootstrap.com/ -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+	<!-- CUSTOM CSS -->
+	<!-- ========== -->
+	<link href="style.css" rel="stylesheet">
+
+
+	<!-- IE COMPATIBILITY -->
+	<!-- ================ -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body ng-app="angularTableFilterApp">
+	<div ng-controller="angularTableFilterCtrl">
+		<div class="container app_header_container">
+			<div class="row">
+				<div class="col-xs-offset-4 col-xs-4">
+					<h4 class="text-center"><strong>Angular Table Filter</strong></h4>
+				</div>
+			</div>
+		</div>
+		<div class="container app_body_container">
+			<div class="row">
+				<div class="col-sm-12">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>S.No</th>
+								<th
+									angular-table-filter-dir
+									thead-data="theadAr"
+									tbody-data-ref="tbodyRefAr"
+									tbody-data="tbodyAr"
+									init-order-by="'name'"
+									tbody-order-by="orderBy"
+									tbody-order-by-dir="orderByDir">
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="tbody in tbodyAr | orderBy: orderBy : orderByDir">
+								<th scope="row">{{ ($index + 1) }}</th>
+								<td>{{ tbody.name }}</td>
+								<td>{{ tbody.empID }}</td>
+								<td>{{ tbody.mobileNo }}</td>
+								<td>{{ tbody.emailID }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-fixed-bottom" style="min-height: 0;">
+			<div class="container app_footer_container">
+				<div class="row">
+					<h6 class="text-center">Angular Table Filter</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- LIBRARY JS -->
+	<!-- ========== -->
+	<!-- JQuery JS v2.1.4 -->
+	<!-- Ref: https://jquery.com/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<!-- Ref: http://getbootstrap.com/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Angular JS v1.4.7 -->
+	<!-- Ref: https://angularjs.org/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+
+	<!-- Angular JS UI Bootstrap v2.5.0 -->
+	<!-- Ref: https://angular-ui.github.io/bootstrap/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+	<!-- For: Bootstrap functionalities in Angular JS -->
+
+
+	<!-- CUSTOM JS -->
+	<!-- ========= -->
+	<!-- Description: Application definition with routing technique and initial point -->
+	<script src="script.js"></script>
+</body>
+</html>
