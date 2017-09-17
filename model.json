@@ -11,7 +11,7 @@
 			}
 		}, {
 			"code": "empID",
-			"name": "Email ID",
+			"name": "Employee ID",
 			"filterObj": {
 				"tbodySearch": "",
 				"isSelectedAll": true,
