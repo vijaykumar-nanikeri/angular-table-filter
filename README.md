@@ -13,7 +13,7 @@ Select *show icon on desktop* option, so that it could be easily started before 
 Once installed, double click on XAMPP icon, which starts the server, only then app will run.
 To check the server status, Goto http://localhost which displays the XAMPP dashboard.
 
-## Project Installation:
+## Tool Installation:
 Unzip the tool folder ie, angular-table-filter-master.zip at *...\xampp\htdocs*.
 So that for instance a file in it looks like below.
 *...\xampp\htdocs\angular-table-filter-master\index.html*
