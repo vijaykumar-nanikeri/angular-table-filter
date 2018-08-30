@@ -1,6 +1,6 @@
 # angular-table-filter
 Its a column level filter on a table/grid, like as in MS Excel. It has the options such as sorting and searching the unique values of a column as in below screenshot.
-It runs on a server. For example, below are the installation steps to install a server called XAMPP.
+It runs on any popular server. I've used XAMPP here. Below are the installation steps to install XAMPP and running our tool in it.
 
 ![ScreenShot](https://user-images.githubusercontent.com/14260257/30522998-ac7af530-9bf6-11e7-93d8-61135ebb0a65.png)
 
